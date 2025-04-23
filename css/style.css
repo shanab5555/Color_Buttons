@@ -1,0 +1,39 @@
+/* icon light css */
+#light{
+ 
+    color: rgba(0, 0, 0, 0.363);
+    font-size: 18em;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%; 
+
+}
+
+/* all button css */
+.button{
+
+    width: 40%;
+    padding: 1.5% 0%;
+    margin: 1% 4%;
+    border-radius: 30px;
+
+}
+
+/* responsive for mobile */
+@media only screen and (max-width:500px){
+
+    #light{
+
+        margin-top: 15%;
+
+    }
+
+    .button{
+        margin: 5% 5%;
+        padding: 5% 0%;
+        width: 85%;
+        font-size: 19px;
+    }
+
+}
